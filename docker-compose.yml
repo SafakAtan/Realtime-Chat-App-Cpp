@@ -4,7 +4,30 @@ services:
     ports:
       - "8080:8080"
   
-  client:
+  client1:
     build: ./client
     depends_on:
       - server
+    stdin_open: true
+    tty: true
+
+  client2:
+    build: ./client
+    depends_on:
+      - server
+    stdin_open: true
+    tty: true
+
+  client3:
+    build: ./client
+    depends_on:
+      - server
+    stdin_open: true
+    tty: true
+
+  client4:
+    build: ./client
+    depends_on:
+      - server
+    stdin_open: true
+    tty: true
