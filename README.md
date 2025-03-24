@@ -24,5 +24,5 @@ This project is a real-time chat application developed in C++ using TCP sockets.
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Realtime-Chat-App-Cpp.git
+   git clone https://github.com/SafakAtan/Realtime-Chat-App-Cpp.git
    cd Realtime-Chat-App-Cpp
